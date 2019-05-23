@@ -1,0 +1,26 @@
+{
+  "name": "burge-app",
+  "version": "1.0.0",
+  "description": "a resturant app that lets user input names of burger they would like to eat. when the burger is submitted, the app will display the burger on the left side of the page waiting for it to be devoured. each burger in the waiting que will have a Devour it! button when clikced will move the burger in the the right side of the page. all this will be reflected in the sql database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasPapaz/Eat-da-burger-app.git"
+  },
+  "author": "Andreas Papazafeiropoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasPapaz/Eat-da-burger-app/issues"
+  },
+  "homepage": "https://github.com/AndreasPapaz/Eat-da-burger-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
+}
